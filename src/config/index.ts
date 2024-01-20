@@ -16,4 +16,7 @@ export default {
     expires_in: process.env.JWT_EXPIRES_IN,
     refresh_expires_in: process.env.JWT_REFRESH_EXPIRES_IN,
   },
+  smtp_username: process.env.SMTP_USERNAME,
+  smtp_password: process.env.SMTP_PASSWORD,
+  client_url: process.env.CLIENT_URL,
 };
